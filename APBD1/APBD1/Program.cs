@@ -3,8 +3,12 @@
 
 int a = 5;
 
+int b = 100;
+
 while (a > 0)
 {
     Console.WriteLine(a);
+    Console.WriteLine(b);
     a -= 1;
+    b /= 2;
 }
