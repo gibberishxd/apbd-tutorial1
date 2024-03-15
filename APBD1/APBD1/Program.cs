@@ -3,13 +3,13 @@
 
 static double GetAvg(int[] numbers)
 {
-    double sum = 0.0;
+    double different_name_lol = 0.0;
     for (int i = 0; i < numbers.Length; i++)
     {
-        sum += numbers[i];
+        different_name_lol += numbers[i];
     }
 
-    return sum / numbers.Length;
+    return different_name_lol / numbers.Length;
 }
 
 int[] numbers = {1, 2, 3, 4};
